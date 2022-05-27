@@ -1,6 +1,6 @@
 export const Masthead: React.FC = () => (
   <div className="flex flex-col gap-8">
-    <h1 className="text-3xl font-extrabold leading-10 sm:text-4xl md:text-5xl">
+    <h1 className="text-[1.718rem] font-extrabold leading-10 text-fadedWhite sm:text-4xl md:text-6xl">
       <span className="tracking-wider">Creative & Minimal</span> <br />
       <span className="sub-heading tracking-widest"> IT AGENCY.</span>
     </h1>
@@ -11,12 +11,12 @@ export const Masthead: React.FC = () => (
     </p>
 
     <div className="flex flex-col gap-3 md:flex-row">
-      <div className="bg-black text-center rounded-lg font-medium hover:bg-white hover:text-black py-[0.8rem] md:w-40">
-        <a href="#">About Us</a>
+      <div className="bg-primaryColor text-center rounded-lg font-semibold hover:bg-secondaryColor hover:text-white text-sm py-[0.8rem] cursor-pointer md:text-base md:w-40">
+        <a href="#">Get Started</a>
       </div>
 
-      <div className="text-center rounded-lg border border-white font-medium hover:bg-white hover:text-black py-[0.8rem] md:w-40">
-        <a href="#">Get Started</a>
+      <div className="text-center rounded-lg border border-fadedWhite font-semibold text-sm py-[0.8rem] cursor-pointer md:text-base md:w-40">
+        <a href="#">About Us</a>
       </div>
     </div>
   </div>

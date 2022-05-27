@@ -10,7 +10,6 @@ const Home: NextPage = () => (
     <Particle />
     <Hero />
     <Services />
-    <About />
   </Layout>
 );
 
