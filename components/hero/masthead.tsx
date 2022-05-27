@@ -10,14 +10,14 @@ export const Masthead: React.FC = () => (
       true potential of your business. If you have a business we have a solution for you!
     </p>
 
-    <div className="flex flex-col gap-3 md:flex-row">
-      <div className="bg-primaryColor text-center rounded-lg font-semibold hover:bg-secondaryColor hover:text-white text-sm py-[0.8rem] cursor-pointer shadow-inner md:text-base md:w-40">
-        <a href="#">Get Started</a>
-      </div>
+    <div className="flex flex-col gap-5 md:flex-row">
+      <a href="#" className="bg-primaryColor text-center rounded-lg font-semibold hover:bg-secondaryColor hover:text-white text-sm py-[0.8rem] cursor-pointer shadow-inner hover:shadow-inner transition-all duration-500 ease-out md:text-base md:w-40">
+        Get Started
+      </a>
 
-      <div className="text-center rounded-lg border border-fadedWhite font-semibold text-sm py-[0.8rem] cursor-pointer md:text-base md:w-40">
-        <a href="#">About Us</a>
-      </div>
+      <a href="#" className="text-center rounded-lg border border-fadedWhite font-semibold text-sm py-[0.8rem] cursor-pointer transition-all duration-500 ease-out hover:bg-primaryColor hover:border-primaryColor md:text-base md:w-40">
+        About Us
+      </a>
     </div>
   </div>
 );

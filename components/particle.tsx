@@ -48,7 +48,7 @@ export const Particle: React.FC = () => {
           },
           move: {
             enable: true,
-            speed: 5,
+            speed: 3,
             direction: "none",
             outModes: {
               default: "out",

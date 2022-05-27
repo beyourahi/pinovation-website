@@ -9,9 +9,15 @@
 
 .indicator {
   cursor: pointer;
-  position: relative;
   transform: rotate(45deg);
 }
+
+@media only screen and (max-width: 375px) {
+  .indicator {
+    display: none
+  }
+}
+
 
 .indicator div {
   position: absolute;

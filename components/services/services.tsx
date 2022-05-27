@@ -13,18 +13,16 @@ export const Services: React.FC = () => (
       </div>
 
       <div className="w-full flex flex-col gap-5 md:flex-row md:justify-center">
-        <div className="bg-primaryColor text-center text-white rounded-lg font-semibold hover:bg-secondaryColor py-[0.8rem] cursor-pointer shadow-inner md:w-52">
-          <a href="#">Explore All Services</a>
-        </div>
+        <a href="#" className="bg-primaryColor text-center text-white rounded-lg font-semibold hover:bg-secondaryColor py-[0.8rem] cursor-pointer shadow-inner hover:shadow-inner transition-all duration-500 ease-out md:w-52">
+          Explore All Services
+        </a>
 
-        <div className="font-semibold py-[0.8rem] text-primaryColor hover:text-secondaryColor md:w-52">
-          <a href="#" className="flex justify-center gap-2">
-            Get a Custom Service
-            <span className="text-2xl">
-              <BsArrowRightCircle />
-            </span>
-          </a>
-        </div>
+        <a href="#" className="flex justify-center gap-2 font-semibold py-[0.8rem] text-primaryColor hover:text-secondaryColor transition-all duration-500 ease-out md:w-52">
+          Get a Custom Service
+          <span className="text-2xl">
+            <BsArrowRightCircle />
+          </span>
+        </a>
       </div>
     </div>
   </div>
