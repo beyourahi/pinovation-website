@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { BsArrowRightCircle } from "react-icons/bs";
 
-export const Card: React.FC = () => (
-  <div className="drop-shadow-2xl bg-black text-white rounded-3xl p-4 w-full flex flex-col gap-1 hover:bg-black hover:text-white lg:bg-white lg:text-black">
+export const ServiceCard: React.FC = () => (
+  <div className="drop-shadow-2xl bg-coolBg text-white rounded-3xl p-4 w-full flex flex-col gap-1 hover:bg-coolBg hover:text-white lg:bg-white lg:text-black">
     <div>
       <Image src="/icons/icon.png" alt="icon" width={70} height={70} />
     </div>

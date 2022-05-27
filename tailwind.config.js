@@ -8,6 +8,7 @@ module.exports = {
         primaryColor: "#59c59d",
         secondaryColor: "#3aa67b",
         fadedWhite: "#e4e4e4",
+        coolBg: "#191a1c",
       },
       fontFamily: {
         sans: ["Saira", ...defaultTheme.fontFamily.sans],

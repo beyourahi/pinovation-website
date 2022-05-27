@@ -11,7 +11,7 @@ export const Masthead: React.FC = () => (
     </p>
 
     <div className="flex flex-col gap-3 md:flex-row">
-      <div className="bg-primaryColor text-center rounded-lg font-semibold hover:bg-secondaryColor hover:text-white text-sm py-[0.8rem] cursor-pointer md:text-base md:w-40">
+      <div className="bg-primaryColor text-center rounded-lg font-semibold hover:bg-secondaryColor hover:text-white text-sm py-[0.8rem] cursor-pointer shadow-inner md:text-base md:w-40">
         <a href="#">Get Started</a>
       </div>
 
