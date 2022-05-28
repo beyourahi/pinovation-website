@@ -11,11 +11,17 @@ export const Masthead: React.FC = () => (
     </p>
 
     <div className="flex flex-col gap-5 md:flex-row">
-      <a href="#" className="bg-primaryColor text-center rounded-lg font-semibold hover:bg-secondaryColor hover:text-white text-sm py-[0.8rem] cursor-pointer shadow-inner hover:shadow-inner transition-all duration-500 ease-out md:text-base md:w-40">
+      <a
+        href="#"
+        className="bg-primaryColor text-center rounded-lg font-semibold hover:bg-secondaryColor hover:text-white text-sm py-[0.8rem] cursor-pointer shadow-inner hover:shadow-inner transition-all duration-500 ease-out md:text-base md:w-40"
+      >
         Get Started
       </a>
 
-      <a href="#" className="text-center rounded-lg border border-fadedWhite font-semibold text-sm py-[0.8rem] cursor-pointer transition-all duration-500 ease-out hover:bg-primaryColor hover:border-primaryColor md:text-base md:w-40">
+      <a
+        href="#"
+        className="text-center rounded-lg border border-fadedWhite font-semibold text-sm py-[0.8rem] cursor-pointer transition-all duration-500 ease-out hover:bg-primaryColor hover:border-primaryColor md:text-base md:w-40"
+      >
         About Us
       </a>
     </div>
