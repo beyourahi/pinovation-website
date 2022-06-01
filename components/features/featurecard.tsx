@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export const FeatureCard: React.FC = () => (
-  <div className="drop-shadow-2xl bg-black text-white rounded-xl py-12 px-20 w-full flex flex-col gap-1 text-center transition-all duration-300 ease-out group skew-y-[-5deg] hover:skew-y-0">
+  <div className="drop-shadow-2xl bg-white text-black rounded-xl py-12 px-20 w-full flex flex-col gap-1 text-center transition-all duration-300 ease-out group skew-y-[-5deg] hover:skew-y-0 hover:bg-coolBg hover:text-white">
     <div className="flex flex-col gap-3 skew-y-[5deg] group-hover:skew-y-0 transition-all duration-300 ease-out">
       <div>
         <Image src="/icons/icon.png" alt="icon" width={70} height={70} />

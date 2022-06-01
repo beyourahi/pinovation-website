@@ -5,6 +5,8 @@ import { Services } from "@/components/services/services";
 import { Particle } from "@/components/particle";
 import { Features } from "@/components/features/features";
 import { Clients } from "@/components/clients/clients";
+import { Testimonials } from "@/components/testimonials/testimonials";
+import { Team } from "@/components/team/team";
 
 const Home: NextPage = () => (
   <Layout>
@@ -13,6 +15,8 @@ const Home: NextPage = () => (
     <Services />
     <Features />
     <Clients />
+    <Testimonials />
+    <Team />
   </Layout>
 );
 
